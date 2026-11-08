@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection { background: #166534; color: #fff; }
+* { scrollbar-width: thin; scrollbar-color: #b9ac93 transparent; }
+:focus-visible { outline: 2px solid #166534; outline-offset: 2px; }
+.tnum { font-variant-numeric: tabular-nums; }
